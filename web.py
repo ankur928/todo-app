@@ -10,7 +10,7 @@ def add_todo():
 
 
 st.title("Todo App")
-st.write("Add list of tasks in the textbox. Check of the tasks that are complete.")
+st.write("Add list of tasks in the textbox. Mark off the tasks that are complete.")
 
 
 for index, todo in enumerate(todos):
